@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+	width: 1800px;
+	height: 45px;
+	background-color: rgba(0, 0, 255, 0.24);
+	padding: 10px 50px;
+}
+
+#videos {
+	display: grid;
+	grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+	padding: 10px;
+	
+}
+
+#videos > div {
+	padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.foto{
+	display:block;
+	margin:auto;
+}
